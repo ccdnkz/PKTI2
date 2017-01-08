@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Project</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="navigation_view_item_1">Home</string>
+    <string name="navigation_view_item_2">My Schedule</string>
+    <string name="navigation_view_item_3">Healthy Fair</string>
+    <string name="navigation_view_item_4">Recipes</string>
+    <string name="navigation_view_item_5">Fit For You</string>
+    <string name="navigation_view_item_6">Points</string>
+    <string name="navigation_view_item_7">Check Up</string>
+    <string name="navigation_view_item_8">Feedback</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="emptyString"> </string>
+
+    <string-array name="disease_titles">
+        <item>Fever</item>
+        <item>Cancer1</item>
+        <item>Cancer2</item>
+        <item>Cancer3</item>
+        <item>Cancer4</item>
+        <item>Cancer5</item>
+    </string-array>
+    <string-array name="disease_statuses">
+        <item>Curable</item>
+        <item>Not Curable</item>
+        <item>Curable</item>
+        <item>Lethal</item>
+        <item>(Maybe)Curable</item>
+        <item>Disorder</item>
+    </string-array>
+    <string name="admin_email">promptriney@gmail.com</string>
+    <string name="item_description">
+        Rp.25.000,-\n
+        Seller
+    </string>
+</resources>

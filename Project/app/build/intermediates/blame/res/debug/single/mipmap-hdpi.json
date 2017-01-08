@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\logo.png",
+        "source": "D:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\src\\main\\res\\mipmap-hdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "D:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icon.png",
+        "source": "D:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    }
+]

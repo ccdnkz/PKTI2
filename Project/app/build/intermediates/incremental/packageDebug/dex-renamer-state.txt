@@ -1,0 +1,7 @@
+#Fri Jan 06 19:22:29 ICT 2017
+base.0=D\:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_408e4e3c356fc86a45c95f9f2f32cff8b97183a6
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_421f52d8612c052856b02b8a70aaa822c91c6c67\\classes.dex
+base.1=D\:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_421f52d8612c052856b02b8a70aaa822c91c6c67
+file.0=D\:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_408e4e3c356fc86a45c95f9f2f32cff8b97183a6\\classes.dex

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_recipes.xml",
+        "source": "D:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\src\\main\\res\\menu\\main_recipes.xml"
+    },
+    {
+        "merged": "D:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_hf.xml",
+        "source": "D:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\src\\main\\res\\menu\\main_hf.xml"
+    },
+    {
+        "merged": "D:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_navigation.xml",
+        "source": "D:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\src\\main\\res\\menu\\main_navigation.xml"
+    },
+    {
+        "merged": "D:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\CC\\Kuliah\\V\\PKTI\\System\\Project\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    }
+]

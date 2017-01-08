@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_9a367ac19c027f780db9a081b241e44d61ed5083\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_83b977701c1b6df475dccb0492741350a5fd2dea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_dd74d1c8e98f9466755d211ff634b765691f2041\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7c4c1fcc34aca536e3389c31527fb3c941b80266">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-gridlayout-v7-23.4.0_08324edb007d89e6a75e2e969ff9de85b81a9636\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_d49266489568389e8249ddc2b6a6f614fc601fa0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_5a521254184b3b452cb86c922dfb54d2d80e139b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\AppData\Local\Android\sdk2\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_5972a0b32afa390d3d85cf5d9ca5c3303a7643ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7787743860c8548db428efc45e1618906941ff2c">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_421f52d8612c052856b02b8a70aaa822c91c6c67\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.bignerdranch.android\expandablerecyclerview\2.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="60430e47e1fb0be5502390f96a0a4c7f0b4fcb3e">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.bignerdranch.android-expandablerecyclerview-2.1.1_e1bd066690544bc4b15ff4ac2ad11dd5c6540900\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_952284c6f95bb633245503431c4dd8da2359326f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.8.0_b83ef3c94d7acff3b258bc56b8852a9d3fd22fa1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_e55efe183870041bfa6b7a5d4f27d21f58f46d40\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.8.0_cd322a33966f278310d2a90d2d0fb9f5c2d4c3ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.8.0_36b7e50d3fe7ff734d6e5d3a8387b79eae8655fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_b3700c5d3f4b0336457f05b2d290652a6c89ca44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.8.0_0fe230d88f922db843c6bae02c7e0f29be1bfe34\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_198aacc4cc2b0597e23f304b423cc32addae8707\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_4081e12a1e79ce8a443ab11174447fc6ddc40e69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-beta4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-beta4_5e68166e12ea10dfe91c8f0aed25284164137f07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.cleveroad\splittransformation\0.9.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="87005e3863535ee43416398f92091ad5c709916e">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.cleveroad-splittransformation-0.9.0_191f9236c924f967de35628a25d39ab0918978f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_ae60b3d6e88d06bc7065004c651d585ff9f346dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_103995432c59d37e9e431e7c613b83f2d6ecf0f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_ae909c933ceafad43981f5729c52033202d664be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_e52a0f10c0b28730e933c272037c8aab2a5ad86d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="09c200cd9844407bb8ae85579909a561566d6c11">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_408e4e3c356fc86a45c95f9f2f32cff8b97183a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_e4fbfd338a276ae62797050e3b5c080d06fdd7fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.8.0_f7ff387dcce08700d4fe7a7bfcf1af0bac594fd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_c231ceab4b324e9a07ee8217c8ffc52d325b643d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\AppData\Local\Android\sdk2\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta4\constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-beta4_cf07cd4ccb9d3d2ec64c56f8afd52c43cd238982\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="D:\CC\Kuliah\V\PKTI\System\Project\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_4bc8e27777f545eb989e5aed1291f47d201274e9\classes.dex" />
+    </item>
+
+</items>

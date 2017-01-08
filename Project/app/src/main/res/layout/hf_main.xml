@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/hf_main"
+    >
+
+    <!--<ViewStub
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/stub_list"
+        android:inflatedId="@+id/showlayout"
+        android:layout="@layout/hf_list_view"/>!-->
+    <ViewStub
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/stub_grid"
+        android:inflatedId="@+id/showlayout"
+        android:layout="@layout/hf_grid_view"/>
+
+</LinearLayout>

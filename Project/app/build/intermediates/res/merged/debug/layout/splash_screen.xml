@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greyblue">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="109dp"
+            android:src="@drawable/logo"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="109dp"
+            android:layout_height="47dp"
+            android:src="@drawable/name"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="291dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/desc"
+            android:scaleType="fitXY" />
+
+        <ProgressBar
+            android:layout_marginTop="80dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            style="?android:attr/progressBarStyleLarge"
+            android:visibility="visible"
+            android:progressDrawable="@drawable/progress"
+            android:indeterminateDrawable="@drawable/progress"
+             />
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

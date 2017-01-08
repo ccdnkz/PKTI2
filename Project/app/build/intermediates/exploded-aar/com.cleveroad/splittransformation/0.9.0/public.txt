@@ -1,0 +1,1 @@
+string trans_app_name

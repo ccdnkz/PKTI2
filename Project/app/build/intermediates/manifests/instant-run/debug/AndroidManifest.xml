@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+    <!-- memasukan elemen Activity dengan atribut configChanges dan theme -->
+    <!--
+            activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" /
+    -->
+    <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+    -->
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="CURIFY"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <!-- Splash screen -->
+        <activity
+            android:name="com.example.user.CURIFY.SplashScreen"
+            android:label="CURIFY"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splashscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.user.CURIFY.IdLogin"
+            android:label="Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.user.CURIFY.IdRegister"
+            android:label="Register"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.user.CURIFY.Home"
+            android:label="Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.DarkActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.user.CURIFY.Recipes"
+            android:label="Recipes"
+            android:parentActivityName="com.example.user.CURIFY.Home"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.user.CURIFY.Home" />
+        </activity>
+        <activity
+            android:name="com.example.user.CURIFY.IdProfile"
+            android:label="Profile"
+            android:parentActivityName="com.example.user.CURIFY.Home"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.user.CURIFY.Home" />
+        </activity>
+        <activity
+            android:name="com.example.user.CURIFY.MsCalendar"
+            android:label="My Schedule"
+            android:parentActivityName="com.example.user.CURIFY.Home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.user.CURIFY.CheckUp"
+            android:label="Check Up"
+            android:parentActivityName="com.example.user.CURIFY.Home"
+            android:theme="@style/AppThemeAB" />
+        <activity
+            android:name="com.example.user.CURIFY.OldHealthyFair"
+            android:label="Healthy Fair"
+            android:theme="@style/AppThemeAB" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.user.CURIFY.Feedback"
+            android:label="Feedback"
+            android:theme="@style/AppThemeAB" />
+        <activity
+            android:name="com.example.user.CURIFY.ScheduleDialogActivity"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.example.user.CURIFY.PointSystem"
+            android:label="Point System"
+            android:theme="@style/AppThemeAB" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.user.project.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+    </application>
+
+</manifest>

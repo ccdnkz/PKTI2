@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context="com.example.user.CURIFY.MsCalendar">
+
+    <CalendarView
+        android:id="@+id/calendar_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EBE6F2"
+        android:layout_alignParentEnd="true"
+        android:layout_row="0"
+        android:layout_column="0">
+
+    </CalendarView>
+
+    <Button
+        android:text="View Missions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vmission"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:theme="@style/AppTheme.Black"
+        android:textColor="@color/white"
+        android:layout_marginBottom="46dp" />
+
+    <Button
+        android:text="Current Mission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cmission"
+        android:theme="@style/AppTheme.Black"
+        android:textColor="@color/white"
+        android:layout_alignBaseline="@+id/vmission"
+        android:layout_alignBottom="@+id/vmission"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

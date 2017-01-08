@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greyblue">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:text="Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="8pt"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="20pt"
+                android:ems="10"
+                android:id="@+id/input_name"
+                android:background="@android:drawable/edit_text"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="10pt"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:text="E-mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="8pt"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="20pt"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/input_email"
+                android:background="@android:drawable/edit_text"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="10pt"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:text="Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="8pt"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="20pt"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/input_pw"
+                android:background="@android:drawable/edit_text"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="10pt"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:text="Confirm Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="8pt"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="20pt"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/input_cpw"
+                android:background="@android:drawable/edit_text"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="10pt"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:text="Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="8pt"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="20pt"
+                android:ems="10"
+                android:id="@+id/input_addr"
+                android:background="@android:drawable/edit_text"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="10pt"
+                android:layout_marginBottom="10dp"
+                />
+
+            <requestFocus
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnRegister"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
