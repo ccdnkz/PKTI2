@@ -6,7 +6,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.DisplayMetrics;
@@ -25,7 +27,8 @@ import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.GridView;
-
+import com.cleveroad.splittransformation.SquareViewPagerIndicator;
+import com.cleveroad.splittransformation.TransformationAdapterWrapper;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
@@ -38,7 +41,9 @@ import java.util.Calendar;
 public class Home extends AppCompatActivity{
 
     //Products_Grid
+    private ViewPager viewPager;
     private TabHost myTabHost;
+    private SquareViewPagerIndicator indicator;
     Button button;
     private List<HfProduct> products = new ArrayList<HfProduct>();
     private GridView gridViewProduct;
@@ -55,6 +60,22 @@ public class Home extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
+
+        viewPager = (ViewPager) findViewById(R.id.pager);
+        indicator = (SquareViewPagerIndicator) findViewById(R.id.indicator);
+
+        //Initializing an adapter and wrap it to TransformationAdapterWrapper
+        SimplePagerAdapter adapter = new SimplePagerAdapter(getSupportFragmentManager());
+        TransformationAdapterWrapper wrapper = TransformationAdapterWrapper
+                .wrap(this, adapter) //wrap existing page adapter
+                .rows(10) //number of rows to split image.
+                .columns(7) // number of columns to split image
+                .marginTop(getResources().getDimensionPixelSize(R.dimen.activity_horizontal_margin))
+                .build(); //initializing
+
+        viewPager.setAdapter(wrapper);
+        viewPager.setPageTransformer(false, wrapper); //never forget this important line!
+        indicator.initializeWith(viewPager); //attaching indicator with ViewPager
 
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -259,6 +280,24 @@ public class Home extends AppCompatActivity{
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
+
+    private static class SimplePagerAdapter extends FragmentStatePagerAdapter {
+
+        public SimplePagerAdapter(FragmentManager fm) {
+            super(fm);
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            return ViewPagerFragment.getInstances(position);
+        }
+
+        @Override
+        public int getCount() {
+            return 7;
+        }
+    }
+
     public Action getIndexApiAction() {
         Thing object = new Thing.Builder()
                 .setName("Main Page") // TODO: Define a title for the content shown.
