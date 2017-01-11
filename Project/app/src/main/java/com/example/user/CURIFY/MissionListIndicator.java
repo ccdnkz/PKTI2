@@ -10,9 +10,8 @@ import static android.R.attr.button;
 
 public class MissionListIndicator {
     private String name = "";
-    private String cityState = "";
-    private String phone = "";
-    Button button;
+    private String description = "";
+    private String reward="";
 
     public void setName(String name) {
         this.name = name;
@@ -22,20 +21,20 @@ public class MissionListIndicator {
         return name;
     }
 
-    public void setCityState(String cityState) {
-        this.cityState = cityState;
+    public void setDescription(String desc) {
+        this.description = desc;
     }
 
-    public String getCityState() {
-        return cityState;
+    public String getDescription() {
+        return description;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setReward(String rwd) {
+        this.reward = rwd;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getReward() {
+        return reward;
     }
 
 

@@ -36,63 +36,39 @@ public class MissionList extends Activity {
         ArrayList<MissionListIndicator> results = new ArrayList<MissionListIndicator>();
 
         MissionListIndicator sr = new MissionListIndicator();
-        sr.setName("Justin Schultz");
-        sr.setCityState("San Francisco, CA");
-        sr.setPhone("415-555-1234");
+        sr.setName("8KFS");
+        sr.setDescription("8,000 footsteps");
+        sr.setReward("30 points");
         results.add(sr);
 
         sr = new MissionListIndicator();
-        sr.setName("Jane Doe");
-        sr.setCityState("Las Vegas, NV");
-        sr.setPhone("702-555-1234");
+        sr.setName("5KFS");
+        sr.setDescription("5,000 footsteps");
+        sr.setReward("20 points");
         results.add(sr);
 
         sr = new MissionListIndicator();
-        sr.setName("Lauren Sherman");
-        sr.setCityState("San Francisco, CA");
-        sr.setPhone("415-555-1234");
+        sr.setName("10KFS");
+        sr.setDescription("10,000 footsteps");
+        sr.setReward("40 points");
         results.add(sr);
 
         sr = new MissionListIndicator();
-        sr.setName("Fred Jones");
-        sr.setCityState("Minneapolis, MN");
-        sr.setPhone("612-555-8214");
+        sr.setName("12KFS");
+        sr.setDescription("12,000 footsteps");
+        sr.setReward("55 points");
         results.add(sr);
 
         sr = new MissionListIndicator();
-        sr.setName("Bill Withers");
-        sr.setCityState("Los Angeles, CA");
-        sr.setPhone("424-555-8214");
+        sr.setName("1KFS");
+        sr.setDescription("1,000 footsteps");
+        sr.setReward("0 points");
         results.add(sr);
 
         sr = new MissionListIndicator();
-        sr.setName("Donald Fagen");
-        sr.setCityState("Los Angeles, CA");
-        sr.setPhone("424-555-1234");
-        results.add(sr);
-
-        sr = new MissionListIndicator();
-        sr.setName("Steve Rude");
-        sr.setCityState("Oakland, CA");
-        sr.setPhone("515-555-2222");
-        results.add(sr);
-
-        sr = new MissionListIndicator();
-        sr.setName("Roland Bloom");
-        sr.setCityState("Chelmsford, MA");
-        sr.setPhone("978-555-1111");
-        results.add(sr);
-
-        sr = new MissionListIndicator();
-        sr.setName("Sandy Baguskas");
-        sr.setCityState("Chelmsford, MA");
-        sr.setPhone("978-555-2222");
-        results.add(sr);
-
-        sr = new MissionListIndicator();
-        sr.setName("Scott Taylor");
-        sr.setCityState("Austin, TX");
-        sr.setPhone("512-555-2222");
+        sr.setName("3KFS");
+        sr.setDescription("3,000 footsteps");
+        sr.setReward("5 points");
         results.add(sr);
 
         return results;
