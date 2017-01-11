@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.appindexing.Action;
@@ -48,11 +49,9 @@ public class ScheduleDialogActivity extends Activity implements OnClickListener 
             case R.id.claim_btn_id:
                 start += point;
                 Intent intent = new Intent(ScheduleDialogActivity.this, PointSystem.class);
-                intent.putExtra("e1",start);
+                intent.putExtra("e1", start);
                 startActivity(intent);
                 showToastMessage("Point has been claimed");
-                this.finish();
-
                 break;
 
             case R.id.cancel_btn_id:
