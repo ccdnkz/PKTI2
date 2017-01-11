@@ -19,7 +19,7 @@ import android.widget.Toast;
 
 public class MsCalendar extends AppCompatActivity {
     CalendarView calendar;
-    Button currentmission;
+    Button currentmission,viewmission;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +35,17 @@ public class MsCalendar extends AppCompatActivity {
                                             int year, int month, int dayOfMonth) {
                 Toast.makeText(getApplicationContext(),
                         dayOfMonth +"/"+month+"/"+ year,Toast.LENGTH_LONG).show();}});
+
+        viewmission = (Button) findViewById(R.id.vmission);
+        viewmission.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MsCalendar.this, MissionList.class);
+                startActivity(i);
+            }
+        });
+
 
         currentmission = (Button) findViewById(R.id.cmission);
         currentmission.setOnClickListener(new OnClickListener() {

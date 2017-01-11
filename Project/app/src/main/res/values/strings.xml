@@ -42,4 +42,5 @@
         Rp.25.000,-\n
         Seller
     </string>
+    <string name="title_activity_mission_list">MissionList</string>
 </resources>

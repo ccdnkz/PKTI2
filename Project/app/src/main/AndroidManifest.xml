@@ -19,7 +19,6 @@
      ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
     -->
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/logo"
@@ -95,12 +94,12 @@
             android:name=".MsCalendar"
             android:label="My Schedule"
             android:parentActivityName=".Home"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".CheckUp"
             android:label="Check Up"
             android:parentActivityName=".Home"
-            android:theme="@style/AppThemeAB"></activity>
+            android:theme="@style/AppThemeAB" />
         <activity
             android:name=".OldHealthyFair"
             android:label="Healthy Fair"
@@ -117,7 +116,7 @@
             android:theme="@style/AppThemeAB" />
         <activity
             android:name=".ScheduleDialogActivity"
-            android:theme="@android:style/Theme.Holo.Light.Dialog"></activity>
+            android:theme="@android:style/Theme.Holo.Light.Dialog" />
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -126,10 +125,14 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".PointSystem"
+        <activity
+            android:name=".PointSystem"
             android:label="Point System"
-            android:theme="@style/AppThemeAB"
-            ></activity>
+            android:theme="@style/AppThemeAB" />
+        <activity
+            android:name=".MissionList"
+            android:label="@string/title_activity_mission_list"
+            android:theme="@style/AppThemeAB"></activity>
     </application>
 
 </manifest>
