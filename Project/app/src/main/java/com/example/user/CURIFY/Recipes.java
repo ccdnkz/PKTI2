@@ -11,15 +11,29 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.view.ViewStub;
+import android.widget.AdapterView;
+import android.widget.GridView;
+import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import static android.R.id.list;
 
 public class Recipes extends AppCompatActivity {
+
+    /*private RecipesDataSource ds;
+    private ListView recipesListView;*/
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -40,6 +54,10 @@ public class Recipes extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.recipes);
+
+        /*ds = new RecipesDataSource();
+        recipesListView = (ListView)findViewById(R.id.lvresep);
+        recipesListView.setAdapter(new RecipesDataSourceAdapter(this, ds));*/
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -101,6 +119,7 @@ public class Recipes extends AppCompatActivity {
 
         public PlaceholderFragment() {
         }
+        ListView list;
 
         /**
          * Returns a new instance of this fragment for the given section
@@ -117,9 +136,47 @@ public class Recipes extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.text_view);
+            View rootView = inflater.inflate(R.layout.recipes_fragment, container, false);
+            TextView textView = (TextView) rootView.findViewById(R.id.tvresep);
             textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+            Log.d(getFragmentManager().toString(), "Fragment Section 2");
+            final String[] itemname = {
+                    "Safari",
+                    "Camera",
+                    "Global",
+                    "FireFox",
+                    "UC Browser",
+                    "Android Folder",
+                    "VLC Player",
+                    "Cold War"
+            };
+
+            Integer[] imgid = {
+                    R.drawable.ic_menu_camera,
+                    R.drawable.ic_menu_camera,
+                    R.drawable.ic_menu_camera,
+                    R.drawable.ic_menu_camera,
+                    R.drawable.ic_menu_camera,
+                    R.drawable.ic_menu_camera,
+                    R.drawable.ic_menu_camera,
+                    R.drawable.ic_menu_camera,
+            };
+
+            CustomListAdapter adapter = new CustomListAdapter(getActivity(), itemname, imgid);
+            list = (ListView) rootView.findViewById(R.id.lvresep);
+            list.setAdapter(adapter);
+
+            list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view,
+                                        int position, long id) {
+                    // TODO Auto-generated method stub
+                    String Slecteditem = itemname[+position];
+                    Toast.makeText(getActivity(), Slecteditem, Toast.LENGTH_SHORT).show();
+
+                }
+            });
             return rootView;
         }
     }
@@ -136,6 +193,8 @@ public class Recipes extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
+
+
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
             return PlaceholderFragment.newInstance(position + 1);
