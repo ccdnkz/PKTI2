@@ -140,29 +140,37 @@ public class Recipes extends AppCompatActivity {
             TextView textView = (TextView) rootView.findViewById(R.id.tvresep);
             textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             Log.d(getFragmentManager().toString(), "Fragment Section 2");
-            final String[] itemname = {
-                    "Safari",
-                    "Camera",
-                    "Global",
-                    "FireFox",
-                    "UC Browser",
-                    "Android Folder",
-                    "VLC Player",
-                    "Cold War"
+            final String[] itemname = new String[]{
+                    getContext().getString(R.string.resep1),
+                    getContext().getString(R.string.resep2),
+                    getContext().getString(R.string.resep3),
+                    getContext().getString(R.string.resep4),
+                    getContext().getString(R.string.resep5),
+                    getContext().getString(R.string.resep6),
+                    getContext().getString(R.string.resep7),
+                    "",
             };
-
             Integer[] imgid = {
-                    R.drawable.ic_menu_camera,
-                    R.drawable.ic_menu_camera,
-                    R.drawable.ic_menu_camera,
-                    R.drawable.ic_menu_camera,
-                    R.drawable.ic_menu_camera,
-                    R.drawable.ic_menu_camera,
-                    R.drawable.ic_menu_camera,
-                    R.drawable.ic_menu_camera,
+                    R.drawable.resep1,
+                    R.drawable.resep2,
+                    R.drawable.resep3,
+                    R.drawable.resep4,
+                    R.drawable.resep5,
+                    R.drawable.resep6,
+                    R.drawable.resep7,
+                    Integer.valueOf("0"),
             };
-
-            CustomListAdapter adapter = new CustomListAdapter(getActivity(), itemname, imgid);
+            final String[] descrecipe = new String[]{
+                    getContext().getString(R.string.rdesc1),
+                    getContext().getString(R.string.rdesc2),
+                    getContext().getString(R.string.rdesc3),
+                    getContext().getString(R.string.rdesc4),
+                    getContext().getString(R.string.rdesc5),
+                    getContext().getString(R.string.rdesc6),
+                    getContext().getString(R.string.rdesc7),
+                    "",
+            };
+            CustomListAdapter adapter = new CustomListAdapter(getActivity(), itemname, imgid,descrecipe);
             list = (ListView) rootView.findViewById(R.id.lvresep);
             list.setAdapter(adapter);
 

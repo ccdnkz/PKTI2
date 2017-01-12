@@ -49,10 +49,16 @@
     <string name="resep3">Broiled Salmon with Herb Mustard Glaze</string>
     <string name="resep4">Florentine Meatballs</string>
     <string name="resep5">Savory Oatmeal Bowls</string>
+    <string name="resep6">French Veggie Loaf</string>
+    <string name="resep7">Artichoke and Spinach Dip</string>
+
+
     <string name="rdesc1">Adding almond butter to your oatmeal lends a rich and nutty flavor that is especially delicious with a splash of almond milk. Spread over chia seeds to add a subtle crunch and an Omega-3 boost while the raspberries bring a burst of flavor and color.</string>
     <string name="rdesc2">Cook zucchini on the grill or in a grill pan until tender and layer it with raw peppers, spinach, store-bought hummus and herbs for a nutrient-packed, packable lunch</string>
     <string name="rdesc3">The salmon filets were so moist with the mustard glaze, this made for an elegant valentines day dinner.</string>
     <string name="rdesc4">Drizzle spinach-packed turkey meatballs in a creamy provolone cheese sauce for a delectable update on meatball night that is ready to go in 30 minutes.</string>
     <string name="rdesc5">Creamy avocado is a perfect topping for any simple grain dish, and oatmeal is no exception. Combine it with juicy cherry tomatoes, tamari, flax oil, and a scattering of parsley. Sesame seeds gives a great boost of protein, plus a nice crunchy texture.</string>
+    <string name="rdesc6">This savory loaf recipe in the Alsace region of France is wonderfully moist, and because of the density of the veggie mixture, it does not rise too much. So be sure to pour all of the batter into the pan. You can add or substitute other veggies of your choice.</string>
+    <string name="rdesc7">Tastes very similar to ones served in chain restaurants in our area. This one uses refrigerated Alfredo sauce as its base to give it a wonderful creamy texture.</string>
     <string name="title_activity_fit_for_you">FitForYou</string>
 </resources>
