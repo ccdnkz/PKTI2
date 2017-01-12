@@ -136,7 +136,7 @@
         </activity>
         <activity
             android:name=".FitForYou"
-            android:label="@string/title_activity_fit_for_you"
+            android:label="Fit For You"
             android:theme="@style/AppThemeAB"></activity>
     </application>
 

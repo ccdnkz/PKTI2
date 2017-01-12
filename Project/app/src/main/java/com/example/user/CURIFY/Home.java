@@ -132,7 +132,8 @@ public class Home extends AppCompatActivity{
                     startActivity(resep);
                     return true;
                 case R.id.nav_fitforyou:
-                    Toast.makeText(getApplicationContext(), "Fit For You telah dipilih", Toast.LENGTH_SHORT).show();
+                    Intent ffu = new Intent(Home.this,FitForYou.class);
+                    startActivity(ffu);
                     return true;
                 case R.id.nav_points:
                     Intent pts = new Intent(Home.this,PointSystem.class);
