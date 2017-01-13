@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.widget.ListView;
 
 
@@ -22,6 +23,9 @@ public class CheckUp extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_check_up);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         listView = (ListView)findViewById(R.id.list_view_checkup);
         disease_statuses = getResources().getStringArray(R.array.disease_statuses);
         disease_titles = getResources().getStringArray(R.array.disease_titles);

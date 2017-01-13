@@ -3,6 +3,7 @@ package com.example.user.CURIFY;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 
 
@@ -12,6 +13,9 @@ public class PointSystem extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_point_system);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         TextView tv = (TextView)findViewById(R.id.jumlahpoin);
         //Intent intent = getIntent();
         //e2 = intent.getIntExtra("e1",0);

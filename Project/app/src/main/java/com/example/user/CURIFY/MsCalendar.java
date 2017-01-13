@@ -2,6 +2,7 @@ package com.example.user.CURIFY;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -24,8 +25,9 @@ public class MsCalendar extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ms_calendar);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.mstoolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         // this can be add to make calendar
         calendar = (CalendarView) findViewById(R.id.calendar_item);
         calendar.setOnDateChangeListener(new OnDateChangeListener(){
@@ -62,7 +64,7 @@ public class MsCalendar extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
 
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main_recipes, menu);
+        getMenuInflater().inflate(R.menu.main_navigation, menu);
         return true;
     }
 

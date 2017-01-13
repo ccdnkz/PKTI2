@@ -18,6 +18,9 @@ public class FitForYou extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fit_for_you);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         ArrayList<FitForYouIndicator> fitForYouIndicators = GetFitForYouIndicator();
 
         final ListView lv = (ListView) findViewById(R.id.fitforyoulistview);

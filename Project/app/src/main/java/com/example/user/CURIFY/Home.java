@@ -79,7 +79,7 @@ public class Home extends AppCompatActivity{
         viewPager.setPageTransformer(false, wrapper); //never forget this important line!
         indicator.initializeWith(viewPager); //attaching indicator with ViewPager
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.home_toolbar);
         setSupportActionBar(toolbar);
         navigationView = (NavigationView) findViewById(R.id.nav_view);
 
@@ -111,7 +111,8 @@ public class Home extends AppCompatActivity{
                 // pilihan menu item navigasi akan menampilkan pesan toast klik kalian bisa menggantinya
                 //dengan intent activity
                 case R.id.nav_home:
-                    Toast.makeText(getApplicationContext(), "Home Telah Dipilih", Toast.LENGTH_SHORT).show();
+                    Intent home = new Intent(Home.this,Home.class);
+                    startActivity(home);
                     return true;
                 case R.id.nav_myschedule:
                     Intent cal = new Intent(Home.this,MsCalendar.class);
@@ -213,51 +214,6 @@ public class Home extends AppCompatActivity{
             return 7;
         }
     }
-
-    /*private void initData(){
-        List<String> fruits= Arrays.asList("apple", "banana", "cherry", "coconut", "grape", "kiwi", "lemon", "mango", "orange", "peach", "pear", "pineapple", "starfruit", "stroberry", "watermelon");
-        for (int i=0; i<fruits.size(); i++){
-            int id= i+1;
-            int price = id * 1000;
-            products.add(new HfProduct(id + "", fruits.get(i), fruits.get(i), price + ""));
-        }
-    }
-
-    private void drawDatatoGridView() {
-        productAdapter = new ProductAdapter(Home.this,
-                R.layout.product_item, products);
-        gridViewProduct.setAdapter(productAdapter);
-        gridViewProduct.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                HfProduct product = (HfProduct) parent.getAdapter().getItem(position);
-                Toast.makeText(getBaseContext(),"HfProduct Name :"+product.getName(),Toast.LENGTH_SHORT).show();
-            }
-        });
-    }*/
-
-
-    /*private void initData(){
-            List<String> fruits= Arrays.asList("apple", "banana", "cherry", "coconut", "grape", "kiwi", "lemon", "mango", "orange", "peach", "pear", "pineapple", "starfruit", "stroberry", "watermelon");
-            for (int i=0; i<fruits.size(); i++){
-                int id= i+1;
-                int price = id * 1000;
-                products.add(new HfProduct(id + "", fruits.get(i), fruits.get(i), price + ""));
-            }
-        }
-
-        private void drawDatatoGridView() {
-            productAdapter = new ProductAdapter(Home.this,
-                    R.layout.product_item, products);
-            gridViewProduct.setAdapter(productAdapter);
-            gridViewProduct.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    HfProduct product = (HfProduct) parent.getAdapter().getItem(position);
-                    Toast.makeText(getBaseContext(),"HfProduct Name :"+product.getName(),Toast.LENGTH_SHORT).show();
-                }
-            });
-        }*/
 
     @Override
     public void onBackPressed() {

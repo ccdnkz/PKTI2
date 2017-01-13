@@ -2,6 +2,9 @@ package com.example.user.CURIFY;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewStub;
 import android.widget.AdapterView;
@@ -12,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class OldHealthyFair extends AppCompatActivity {
+    Toolbar toolbar;
     private ViewStub stubGrid;
     private GridView gridview;
     private HfGridViewAdapter gridViewAdapter;
@@ -20,6 +24,9 @@ public class OldHealthyFair extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.old_hf);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.hf_toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         stubGrid = (ViewStub) findViewById(R.id.stub_grid);
         stubGrid.inflate();
         gridview = (GridView) findViewById(R.id.mygridview);
@@ -42,6 +49,14 @@ public class OldHealthyFair extends AppCompatActivity {
         productList.add(new HfProduct(R.drawable.food_item, "Title 9", itemdesc));
 
         return productList;
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main_navigation, menu);
+        return true;
     }
 
     AdapterView.OnItemClickListener onItemClick = new AdapterView.OnItemClickListener() {

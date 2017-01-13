@@ -1,5 +1,6 @@
 package com.example.user.CURIFY;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -18,17 +19,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import android.view.ViewStub;
 import android.widget.AdapterView;
-import android.widget.GridView;
+import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import static android.R.id.list;
+import java.lang.reflect.Array;
 
 public class Recipes extends AppCompatActivity {
 
@@ -88,7 +85,7 @@ public class Recipes extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main_recipes, menu);
+        getMenuInflater().inflate(R.menu.main_navigation, menu);
         return true;
     }
 
@@ -170,7 +167,9 @@ public class Recipes extends AppCompatActivity {
                     getContext().getString(R.string.rdesc7),
                     "",
             };
-            CustomListAdapter adapter = new CustomListAdapter(getActivity(), itemname, imgid,descrecipe);
+
+            //ArrayAdapter<String> adapter = new ArrayAdapter<String>()
+            CustomListAdapter adapter = new CustomListAdapter(getActivity(), itemname, imgid, descrecipe);
             list = (ListView) rootView.findViewById(R.id.lvresep);
             list.setAdapter(adapter);
 
@@ -180,8 +179,13 @@ public class Recipes extends AppCompatActivity {
                 public void onItemClick(AdapterView<?> parent, View view,
                                         int position, long id) {
                     // TODO Auto-generated method stub
-                    String Slecteditem = itemname[+position];
-                    Toast.makeText(getActivity(), Slecteditem, Toast.LENGTH_SHORT).show();
+                    //String Slecteditem = itemname[+position];
+                    //Toast.makeText(getActivity(), Slecteditem, Toast.LENGTH_SHORT).show();
+                    /*Intent intent = new Intent(view.getContext(), RecipesItemClick.class);
+                    intent.putExtra("itemname", list.getItemAtPosition(position).toString());
+                    startActivity(intent);*/
+                    ViewGroup vg = (ViewGroup) view;
+                    TextView tv = (TextView) vg.findViewById(R.id.rlist_text);
 
                 }
             });

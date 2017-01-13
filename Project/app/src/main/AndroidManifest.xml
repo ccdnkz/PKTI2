@@ -65,7 +65,7 @@
             android:name=".Home"
             android:label="Home"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.DarkActionBar">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -76,7 +76,7 @@
             android:name=".Recipes"
             android:label="Recipes"
             android:parentActivityName=".Home"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.user.CURIFY.Home" />
@@ -85,7 +85,7 @@
             android:name=".IdProfile"
             android:label="Profile"
             android:parentActivityName=".Home"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.user.CURIFY.Home" />
@@ -99,11 +99,11 @@
             android:name=".CheckUp"
             android:label="Check Up"
             android:parentActivityName=".Home"
-            android:theme="@style/AppThemeAB" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".OldHealthyFair"
             android:label="Healthy Fair"
-            android:theme="@style/AppThemeAB">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -113,7 +113,7 @@
         <activity
             android:name=".Feedback"
             android:label="Feedback"
-            android:theme="@style/AppThemeAB" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".ScheduleDialogActivity"
             android:theme="@android:style/Theme.Holo.Light.Dialog" />
@@ -128,16 +128,16 @@
         <activity
             android:name=".PointSystem"
             android:label="Point System"
-            android:theme="@style/AppThemeAB" />
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".MissionList"
             android:label="Mission List"
-            android:theme="@style/AppThemeAB">
+            android:theme="@style/AppTheme">
         </activity>
         <activity
             android:name=".FitForYou"
             android:label="Fit For You"
-            android:theme="@style/AppThemeAB"></activity>
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

@@ -18,7 +18,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/colorAccent"
+            android:background="#0D72A9"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.DarkActionBar">
 
