@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/lib/com.beardedhen.androidbootstrap"
     android:orientation="vertical"
     android:paddingBottom="10dip"
     android:paddingLeft="10dip"
@@ -34,5 +35,4 @@
         android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:id="@+id/buttonTake" />
-
 </LinearLayout>

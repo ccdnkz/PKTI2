@@ -55,7 +55,7 @@ public class DiseaseAdapter extends ArrayAdapter{
             LayoutInflater inflater= (LayoutInflater)this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             row = inflater.inflate(R.layout.row_checkup_layout,parent,false);
             handler = new DataHandler();
-            handler.Sign = (ImageView)row.findViewById(R.id.disease_sign);
+            //handler.Sign = (ImageView)row.findViewById(R.id.disease_sign);
             handler.title = (TextView)row.findViewById(R.id.disease_title);
             handler.status = (TextView)row.findViewById(R.id.disease_status);
             row.setTag(handler);
@@ -65,7 +65,7 @@ public class DiseaseAdapter extends ArrayAdapter{
         }
         DiseaseDataProvider dataProvider;
         dataProvider = (DiseaseDataProvider)this.getItem(position);
-        handler.Sign.setImageResource(dataProvider.getDisease_sign_resource());
+        //handler.Sign.setImageResource(dataProvider.getDisease_sign_resource());
         handler.title.setText(dataProvider.getDisease_title());
         handler.status.setText(dataProvider.getDisease_status());
 

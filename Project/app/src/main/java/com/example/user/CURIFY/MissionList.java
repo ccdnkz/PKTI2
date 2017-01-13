@@ -1,20 +1,27 @@
 package com.example.user.CURIFY;
 
-import java.util.ArrayList;
-
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class MissionList extends Activity {
+import java.util.ArrayList;
+
+public class MissionList extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mission_list);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.msnlisttoolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         ArrayList<MissionListIndicator> missionListIndicator = GetMissionListIndicator();
 
@@ -72,5 +79,15 @@ public class MissionList extends Activity {
         results.add(sr);
 
         return results;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

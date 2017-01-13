@@ -24,9 +24,11 @@ public class OldHealthyFair extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.old_hf);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.hf_toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         stubGrid = (ViewStub) findViewById(R.id.stub_grid);
         stubGrid.inflate();
         gridview = (GridView) findViewById(R.id.mygridview);
@@ -65,4 +67,15 @@ public class OldHealthyFair extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), productList.get(position).getTitle() + " - " + productList.get(position).getDescription(), Toast.LENGTH_SHORT).show();
         }
     };
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 }

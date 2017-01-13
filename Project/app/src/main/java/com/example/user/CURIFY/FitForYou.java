@@ -3,10 +3,13 @@ package com.example.user.CURIFY;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -18,9 +21,11 @@ public class FitForYou extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fit_for_you);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.ffutoolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         ArrayList<FitForYouIndicator> fitForYouIndicators = GetFitForYouIndicator();
 
         final ListView lv = (ListView) findViewById(R.id.fitforyoulistview);
@@ -32,7 +37,8 @@ public class FitForYou extends AppCompatActivity {
             public void onItemClick(AdapterView<?> a, View v, int position, long id) {
                 Object o = lv.getItemAtPosition(position);
                 FitForYouIndicator fullObject = (FitForYouIndicator) o;
-                Toast.makeText(FitForYou.this, "You have chosen: " + " " + fullObject.getTitle(), Toast.LENGTH_LONG).show();
+                //Toast.makeText(FitForYou.this, "You have chosen: " + " " + fullObject.getTitle(), Toast.LENGTH_LONG).show();
+
             }
         });
     }
@@ -56,5 +62,15 @@ public class FitForYou extends AppCompatActivity {
         results.add(fr);
 
         return results;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

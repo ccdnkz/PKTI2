@@ -27,6 +27,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/containerffu"
         android:orientation="horizontal"
         android:layout_width="216dp"
         android:layout_height="match_parent"

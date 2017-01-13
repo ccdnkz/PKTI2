@@ -8,10 +8,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.widget.ListView;
 
+import com.beardedhen.androidbootstrap.TypefaceProvider;
+
 
 public class CheckUp extends AppCompatActivity {
 
     ListView listView;
+
     int[] disease_sign = {R.drawable.curable,R.drawable.curable,
             R.drawable.warning,R.drawable.warning,
             R.drawable.curable,R.drawable.disorder};
@@ -20,9 +23,9 @@ public class CheckUp extends AppCompatActivity {
     DiseaseAdapter adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_check_up);
+        TypefaceProvider.registerDefaultIconSets();
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

@@ -50,24 +50,22 @@
         >
 
         <ImageButton
-            android:layout_width="102.75dp"
+            android:layout_width="132dp"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/imgbutton_fnd"
             android:id="@+id/imageButton3"
-            android:layout_weight="0.67"
             android:background="@drawable/img_border"
             />
 
         <ImageButton
-            android:layout_width="102.75dp"
+            android:layout_width="132dp"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/imgbutton_supplies"
             android:id="@+id/imageButton4"
-            android:layout_weight="0.37"
             android:background="@drawable/img_border" />
 
         <ImageButton
-            android:layout_width="110dp"
+            android:layout_width="132dp"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/imgbutton_others"
             android:id="@+id/imageButton2"
